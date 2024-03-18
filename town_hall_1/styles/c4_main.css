@@ -39,3 +39,6 @@ main h3 {
 footer p{
 	text-align: center;
 }
+
+/* the styles for the elements by class */
+.shadow {text-shadow: -2px -2px 4px #800000;}
