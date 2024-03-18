@@ -13,7 +13,7 @@ header img {
 
 header h2 {
 	font-size: 170%;
-	color: #800000;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
 header h3 {
@@ -22,6 +22,7 @@ header h3 {
 	text-indent: 30px;
 }
 /* the styles for the main content */
+:root {--global-color-1 : #800000; }
 main {
 	clear: left;
 }
@@ -41,4 +42,4 @@ footer p{
 }
 
 /* the styles for the elements by class */
-.shadow {text-shadow: 2px 2px 4px #800000;}
+.shadow {text-shadow: 2px 2px 4px var(--global-color-1);}
