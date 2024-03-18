@@ -22,7 +22,7 @@ header h3 {
 	text-indent: 30px;
 }
 /* the styles for the main content */
-:root {--global-color-1 : #800000; }
+:root {--global-color-1 : #4d0080; }
 main {
 	clear: left;
 }
